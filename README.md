@@ -1,8 +1,8 @@
 # Number_guessing_game_python
 print("Welcome to number guessing game.")
-right_number=3
+right_number=27
 print("I've picked a number for you to guess.")
-print("The number is between 1 and 5.")
+print("The number is between 1 and 35.")
 while True:
     guessed_number=int(input("Guess a number:"))
     if guessed_number == right_number:
