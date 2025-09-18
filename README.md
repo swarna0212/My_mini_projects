@@ -1,1 +1,19 @@
-# My_mini_python_projects
+# Number_guessing_game_python
+print("Welcome to number guessing game.")
+right_number=3
+print("I've picked a number for you to guess.")
+print("The number is between 1 and 5.")
+while True:
+    guessed_number=int(input("Guess a number:"))
+    if guessed_number == right_number:
+        print("Correct guess.")
+        break
+    elif guessed_number > right_number:
+        print("Your guess is not correct.")
+        print("Give it another shot.")
+        print("Choose a lower number.")
+    else:
+        print("Your guess is not correct.")
+        print("Give it another shot.")
+        print("Choose a higher number.")
+        
